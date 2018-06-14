@@ -1,13 +1,13 @@
-package com.aws.codestar.projecttemplates.handler;
-
-import com.amazonaws.services.lambda.runtime.Context;
-import com.amazonaws.services.lambda.runtime.RequestHandler;
-
-import com.aws.codestar.projecttemplates.GatewayResponse;
-import org.json.JSONObject;
+package main.java.com.aws.codestar.projecttemplates.handler;
 
 import java.util.HashMap;
 import java.util.Map;
+
+import com.amazonaws.handlers.RequestHandler;
+import com.amazonaws.services.costexplorer.model.Context;
+
+import main.java.com.aws.codestar.projecttemplates.GatewayResponse;
+import net.sf.json.JSONObject;
 
 /**
  * Handler for requests to Lambda function.

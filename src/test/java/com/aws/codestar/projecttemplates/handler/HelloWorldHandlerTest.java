@@ -1,16 +1,10 @@
-package com.aws.codestar.projecttemplates.handler;
+package test.java.com.aws.codestar.projecttemplates.handler;
 
-import com.amazonaws.serverless.proxy.internal.testutils.MockLambdaContext;
+import org.junit.Test;
 
-import com.aws.codestar.projecttemplates.GatewayResponse;
-
-import org.json.JSONObject;
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import main.java.com.aws.codestar.projecttemplates.GatewayResponse;
+import main.java.com.aws.codestar.projecttemplates.handler.HelloWorldHandler;
+import net.sf.json.JSONObject;
 
 /**
  * Tests for {@link HelloWorldHandler}. Modify the tests in order to support your use case as you build your project.

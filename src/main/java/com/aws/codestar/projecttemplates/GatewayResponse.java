@@ -1,4 +1,4 @@
-package com.aws.codestar.projecttemplates;
+package main.java.com.aws.codestar.projecttemplates;
 
 import java.util.Collections;
 import java.util.HashMap;
